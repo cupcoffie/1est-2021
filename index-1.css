@@ -1,0 +1,118 @@
+html {
+    background-color:#ffff;
+    height: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: rgb(82, 206, 195);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#container {
+    height: 500px;
+    width:500px;
+    background-color: #ffff;
+    margin: 0 auto;
+    border: 5px solid #2cb89a;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+    /*display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+
+/*timers*/
+.label {
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#work{
+    width:100px;
+    height: 50px;
+    padding: 20px;
+   
+}
+#break{
+    width:100px;
+    height: 50px;
+    padding: 20px;
+}
+#cycles{
+    width:100px;
+    height: 50px;
+    padding: 20px;
+}
+
+
+.timer {
+   
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+    font-weight: bold;
+    display:inline-flex;
+  
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#counter{
+    width:100px;
+    height: 50px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#work-timer{
+    width:100px;
+    height: 50px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#break-timer{
+    width:100px;
+    height: 50px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+/*buttons*/
+
+.btn {
+    align-self: center;
+    justify-self: center;
+    width: 80px;
+    height:50px;
+    font-size: 20px;
+    border-radius:4px ;
+    background-color: rgb(204, 48, 27);
+    font-weight: bold;
+
+}
+#start{
+   justify-self: start;
+   margin-inline-start:20px ;  
+}
+#reset{
+    justify-self: start;
+    margin-inline-start:20px ;
+}
+#stop{
+   
+    justify-self: start;
+    margin-inline-start:20px ;
+
+}
+
